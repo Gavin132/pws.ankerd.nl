@@ -83,7 +83,8 @@ body {
     margin-right: 10px;
     line-height: 38px;
     font-family: arial;
-    font-size: 18px
+    font-size: 18px;
+    color: white;
 }
 
 #unity-fullscreen-button {
@@ -439,9 +440,9 @@ body {
     .imgnavbar {
         display: flex;
         padding: 5px 45px;
-        height: auto;
-        width: 255px;
+        height: 61.734px;
         float: left;
+        margin-left: -3%;
     }
 
     .imgfooter {
