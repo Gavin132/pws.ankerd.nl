@@ -502,6 +502,7 @@ body {
 
 /*---------------------------------------------------pc css------------------------------------------------*/
 @media screen and (min-width: 1201px) {
+
     .footerleft {
         float: left;
         width: 100%;
@@ -830,7 +831,7 @@ body {
 
     .navbarleft {
         display: flex;
-        background-color: rgba(17,17,17,0.7);
+        background-color: rgba(17,17,17);
         height: 58px;
         align-items: center;
         float: left;
@@ -842,7 +843,7 @@ body {
 
     .navbarright {
         display: flex;
-        background-color: rgba(17,17,17,0.7);
+        background-color: rgba(17,17,17);
         align-items: center;
         height: 58px;
         float: right;
