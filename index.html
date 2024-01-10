@@ -10,7 +10,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="TemplateData/style.css">
     <title>Mandelbrot sim</title>
-    <link rel="icon" type="ankerdlogo4.png" href="images/ankerdlogo4.png">
+    <link rel="icon" type="ankerdlogo2023.png" href="images/ankerdlogo2023.png">
 </head>
 
 <body>
@@ -24,8 +24,15 @@
         });
     </script>
     <br />
-    <h9 class="header">Controls</h9>
-    <p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="homecenter"> 
+        <div style="margin-left:-100%" class="left">
+    <header100>Controls</header100>
+<p>
         <br>This demo should only work on Chrome.
         <br>Keybinds:
         <br>WASD are for movement
@@ -33,8 +40,9 @@
         <br>Arrow down is zoom out
         <br>Spacebar is reset view
         <br>Q and E are for changing the exponent
-
     </p>
+    </div>
+    <div class="right">
     <p style="margin-bottom:500px;">
         <div id="unity-container" class="unity-desktop">
             <canvas id="unity-canvas"></canvas>
@@ -95,6 +103,8 @@
             document.body.appendChild(script);
         </script>
     </p>
+</div>
+</div>
     <script>
         $(function () {
             $("#footer").load("footer.html");
